@@ -1,0 +1,28 @@
+POST https://mini-curso-nodejs.onrender.com/videos
+Content-type: application/json
+
+{
+    "title":"video node",
+    "description": "Este é o primeiro filme",
+    "duration": 180
+} 
+
+###
+
+GET https://mini-curso-nodejs.onrender.com/videos
+
+
+###
+
+PUT https://mini-curso-nodejs.onrender.com/videos/dee0f3e2-21af-4eb2-8b24-74432994efea
+Content-type: application/json
+
+{
+    "title":"video 250",
+    "description": "Este é o primeiro filme",
+    "duration": 180
+} 
+
+###
+
+DELETE https://mini-curso-nodejs.onrender.com/videos/dee0f3e2-21af-4eb2-8b24-74432994efea
